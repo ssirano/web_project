@@ -1,0 +1,100 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, button, abbr, acronym, address, code, del,
+dfn, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th,
+td, hr{margin:0;padding:0;font-size:100%;box-sizing: border-box;}
+body{height:100%;min-height:100%;font-family:'Noto Sans Korean','Malgun Gothic','맑은고딕','돋움',dotum, sans-serif;font-size:16px;color:#737373;line-height:1.5;background:url(../images/content_bg4.png) repeat;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal}
+ol, ul, li {list-style:none}
+table {width:100%; border-collapse:collapse;border-spacing:0}
+form, fieldset, iframe {display:block;border:0}
+img, button {border:0 none;vertical-align:top;}
+hr {height:0; display:none}
+i, em, address{font-style:normal}
+label, button{cursor:pointer}
+blockquote, q {quotes:none}
+caption, legend {overflow:hidden;visibility:hidden;position:absolute;width:0;height:0;padding:0;margin:0;font-size:0;text-indent:-100%;white-space:nowrap;z-index:-1}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {display:block;box-sizing: border-box;}
+input, textarea, select, button {font-family:'Noto Sans Korean','Malgun Gothic','맑은고딕','돋움',dotum, sans-serif;font-size:16px;color:#919090;line-height:1.5;letter-spacing:0;vertical-align:middle; border:none;}
+input, textarea {margin:0;padding:0;  background:none; box-sizing:border-box;}
+textarea {resize:none}
+a {color:#919090;text-decoration:none}
+a:link, a:visited {text-decoration:none}
+a:hover {text-decoration:none}
+.blind{display: none;overflow: hidden;position: absolute;width: 0;height: 0;padding: 0;margin: 0; font-size: 0;line-height: 0; text-indent: -9999em;visibility: hidden;outline: none;z-index: -1;}
+html,body{overflow:hidden;height:100%;}
+
+
+
+
+
+#wrap{width: 100%; height: :100%; background-color: grey;}
+#wrap > h1{font-size: 10;}
+
+#wrap header{width: 450px; height: 100%; position: fixed; left: 0px; top: 0px;
+  background-color: beige;}
+
+header .title_1{width:450px; position: absolute;; top: 80px; }
+header .para{width:450px; position: absolute;; top: 300px; }
+header .standard{width:450px; position: absolute;; top: 500px;}
+
+#wrap{width: auto; height: 100%; padding-left:450px;}
+
+#container{max-width: 800px ; height: 100%; position: fixed;  margin:0}
+#container .content{width:100%; height:50%;}
+#container #ranking{top: 30%; background: url(../images/ranking.png) no-repeat;  }
+
+img .ranking{width: 800px; max-height: 100%; position: absolute;}
+
+
+#container #language{ top: 100%; width:730px; overflow: auto; }
+button.btn1 {
+  position: absolute;
+  top: 35px;
+  left : 165px;
+  cursor: hand;
+}
+button.btn2 {
+  position: absolute;
+  top: 75px;
+  left : 165px;
+}
+button.btn3 {
+  position: absolute;
+  top: 115px;
+  left : 165px;
+}
+button.btn4 {
+  position: absolute;
+  top: 155px;
+  left : 165px;
+}
+button.btn5 {
+  position: absolute;
+  top: 192px;
+  left : 165px;
+}
+button.btn6 {
+  position: absolute;
+  top: 232px;
+  left : 165px;
+}
+button.btn7 {
+  position: absolute;
+  top: 270px;
+  left : 165px;
+}
+button.btn8 {
+  position: absolute;
+  top: 310px;
+  left : 165px;
+}
+button.btn9 {
+  position: absolute;
+  top: 350px;
+  left : 165px;
+}
+button.btn10 {
+  position: absolute;
+  top: 390px;
+  left : 165px;
+}
+footer{width:450px; height :100px; bottom: 0px ; left: 0px; padding: 20px 20px 20px 20px; position : fixed;  z-index :15;}
